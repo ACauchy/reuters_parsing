@@ -1,0 +1,6 @@
+aiohttp==3.6.2
+aiopg[sa]==1.0.0
+sqlalchemy==1.3.12
+beautifulsoup4==4.8.2
+lxml==4.4.2
+motor==2.1.0
