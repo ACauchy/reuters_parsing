@@ -4,10 +4,6 @@ case "$1" in
     docker-compose up --force-recreate --build --no-start app
     ;;
 
-  dev)
-    docker-compose -f docker-compose.yml -f up --build -d
-    ;;
-
   cleanup)
     docker-compose -f docker-compose.yml -f down -v
     ;;
